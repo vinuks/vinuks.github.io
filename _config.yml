@@ -27,10 +27,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vinusebastian12
 github_username:  vinuks
 
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
