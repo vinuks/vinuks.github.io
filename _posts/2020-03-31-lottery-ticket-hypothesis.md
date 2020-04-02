@@ -10,7 +10,7 @@ published: true
 
 This paper introduces the idea that given a trained complex neural network, one can find a smaller network (called lottery tickets) that when trained in isolation can match the test accuracy of the larger network with the same initialization and number of iterations of training.
 
-The procedure for identifying a lottery ticket is to intit a network with weights $$\theta$$, iteratively train a network and prune some percentage $$p$$ of the parameters, and then retrain the remaining parameters with the same initialization in $$\theta$$.
+The procedure for identifying a lottery ticket is to init a network with weights $$\theta$$, iteratively train a network and prune some percentage $$p$$ of the parameters, and then retrain the remaining parameters with the same initialization in $$\theta$$.
 
 Random initializations with the pruned network does not reproduce the results - indicating that the structure alone cannot explain the lottery ticket's success. They suggest that understanding lottery tickets can help mprove training performance, design better networks and improve theoretical understanding of networks.
 
