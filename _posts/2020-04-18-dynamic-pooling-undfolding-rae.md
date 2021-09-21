@@ -8,6 +8,8 @@ published: true
 
 Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection
 
+Link: 
+
 ### Definitions:
 
 Paraphrase detection - given two sentences, determine if one is paraphrasing the other - meaning that they both convey the same meaning.
@@ -40,3 +42,5 @@ Add in some handcrafted features - mainly because the pooling layer cannot repre
 ### Conclusion: 
 
 Overall, this paper's novel contributions are the unfolding of the RAE to the entire tree, and the pooling of similarity matrix in order to get a fixed shape input - which helps with the classification task.
+
+Tags:
