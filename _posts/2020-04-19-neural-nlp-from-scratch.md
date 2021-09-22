@@ -6,18 +6,18 @@ categories: jekyll update
 published: true
 ---
 
-Natural Language Processing (Almost) from Scratch
+### Natural Language Processing (Almost) from Scratch
 
 [Link](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf){:target="_blank"}
 
-Definitions:
+### Definitions:
 
 Part of Speech tagging:
 Chunking:
 Named Entity Recognition:
 Semantic Role Labeling:
 
-Summary:
+### Summary:
 
 Main goal of paper is to try and excel on multiple tasks and benchmarks while avoiding task specific engineering. They cite that most of the research done until then was focussed on trying and solving specific tasks, as opposed to learning a general internal representation of the language.
 
@@ -33,9 +33,9 @@ This means that each task requires additional research and for tasks that are "c
 The proposal from the authors is to use a multilayered NN that trains from end to end. The deeper layers are automatically tuned towards each specific task.
 
 
-Conclusion:
+### Conclusion:
 
-Tags:
+### Tags:
 
 
 
